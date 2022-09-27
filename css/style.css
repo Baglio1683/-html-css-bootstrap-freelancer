@@ -15,16 +15,24 @@
 
 /* Start Row  */
 
-.wid-100{
-    width: 25rem;
-}
-
 .back-start{
     background-color: rgb(3, 172, 163);
 }
+
 
 /* Setting Portfolio  */
 
 .back-po{
     background-color: lightgreen;
+}
+
+
+/* Utility */
+
+.xxx-large{
+    font-size: xxx-large;
+}
+
+.m-100{
+    margin-bottom: 100px;
 }
