@@ -13,4 +13,18 @@
     color: rgb(153, 153, 153);
 }
 
+/* Start Row  */
 
+.wid-100{
+    width: 25rem;
+}
+
+.back-start{
+    background-color: rgb(3, 172, 163);
+}
+
+/* Setting Portfolio  */
+
+.back-po{
+    background-color: lightgreen;
+}
