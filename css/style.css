@@ -46,3 +46,11 @@
     height: 3px;
 }
 
+.ms_pl-100{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.ms_f-small{
+    font-size: small;
+}
