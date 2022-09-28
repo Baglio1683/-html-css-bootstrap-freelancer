@@ -222,14 +222,35 @@
 
             <div>
                 <ul class="list-unstyled">
-                    <li class="border-bottom pt-2 pb-2">Name</li>
-                    <li class="border-bottom pt-2 pb-2">Email Address</li>
-                    <li class="border-bottom pt-2 pb-2">Phone Number</li>
-                    <li class="border-bottom pt-2 pb-2 m-100">Message</li>
+                    <li>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" style="border-top: none; border-left: none; border-right: none; border-radius: unset; border-bottom: 1px solid rgb(155, 155, 155);">
+                            <label for="floatingInput" style="color: rgb(105, 105, 105);">Name</label>
+                          </div>                          
+                    </li>
+                    <li>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="email" style="border-top: none; border-left: none; border-right: none; border-radius: unset; border-bottom: 1px solid rgb(155, 155, 155);">
+                            <label for="email" style="color: rgb(105, 105, 105);">Email Address</label>
+                          </div>                          
+                    </li>
+                    <li>
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control" id="phone" style="border-top: none; border-left: none; border-right: none; border-radius: unset; border-bottom: 1px solid rgb(155, 155, 155);">
+                            <label for="phone" style="color: rgb(105, 105, 105);">Phone Number</label>
+                          </div>                          
+                    </li>
+                    <li>
+                       <!-- Area di testo -->
+                       <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 200px; border-left: none; border-right: none; border-top: none;"></textarea>
+                        <label for="floatingTextarea" style="color: rgb(170, 170, 170);">Message</label>
+                      </div>                       
+                    </li>
                 </ul>
             </div>
 
-            <div class="border-top pt-3">
+            <div>
                 <a href="" class="text-white back-start text-decoration-none border border-white p-2 rounded-3">Send</a>
             </div>
 
