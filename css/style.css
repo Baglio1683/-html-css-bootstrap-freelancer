@@ -1,33 +1,25 @@
-/* DEBUG  */
-.back-col{
-    background-color: rgb(80, 80, 80);
-}
-/* 
-.box{
-    background-color: lightpink;
-    border: 1px solid white;
-} */
-
-
-.text-gray{
-    color: rgb(153, 153, 153);
+/* header setting */
+.ms_backhead{
+    background-color: #2C3E50;
 }
 
 /* Start Row  */
-
 .back-start{
-    background-color: rgb(3, 172, 163);
+    background-color: #1ABC9C;
 }
 
-
-/* Setting Portfolio  */
-
-.back-po{
-    background-color: lightgreen;
+/* Location row */
+.ms_loback{
+    background-color: #3A546D;
 }
-
 
 /* Utility */
+.ms_line-align{
+    display: inline-block;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+}
 
 .xxx-large{
     font-size: xxx-large;
@@ -36,3 +28,21 @@
 .m-100{
     margin-bottom: 100px;
 }
+
+.text-gray{
+    color: rgb(153, 153, 153);
+}
+
+.ms_text1ABC9C{
+    color: #1ABC9C;
+}
+
+.ms_text2CE50{
+    color: #2C3E50;
+}
+
+.ms_bor2CE50{
+    background-color:#2C3E50 !important;
+    height: 3px;
+}
+
