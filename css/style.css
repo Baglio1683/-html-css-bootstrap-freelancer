@@ -61,5 +61,9 @@
      border-right: none; 
      border-radius: unset; 
      border-bottom: 1px solid rgb(155, 155, 155);
+     box-shadow: none;
 }
 
+.ms_form.form-control:focus{
+    border-color: #1ABC9C;
+}
